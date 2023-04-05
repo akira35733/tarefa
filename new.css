@@ -58,7 +58,7 @@ form label, form legend {
 .enviar{
   width: 40%;
   padding: 15px 0;
-  background: #000000;
+  background: #red;
   color: white:
   font-weight:bold;
   font-size: 18px;
@@ -79,13 +79,15 @@ table{
 
 thead{
   background:#000000;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 td, th{
   border: 1px solid   #000000;
   padding: 8px 15px;
+  background: #000000;
+  color: white;
 
 }
 footer{
