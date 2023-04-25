@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="dripp.css">
+  </head>
+  <body>
+    <form class="formulario">
+          <p>Envie uma mensagem preenchendo o formulário abaixo</p>
+          Data de nascimento: <input type="date" name="nascimento">
+
+     <div class="field">
+       <label for="nome">Seu nome</label>
+       <input type="text" name="nome" name="nome" placeholder="Digite seu nome" required>
+       </div>
+
+       <div class="field">
+         <label for="telefone">Seu telefone</label>
+         <input type="text" id="telefone" name="telefone" placeholder="Digite seu número" required>
+       </div>
+
+       <div class="field">
+         <label for="email">Seu E-mail</label>
+         <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+       </div>
+
+       <div class="field radiobox">
+          <span>Deseja receber nossas novidades?</span>
+          <input type="radio" name="novidades" id="sim" value="sim" checked> <label for="sim">Sim</label>
+          <input type="radio" name="novidades" id="nao" value="nao"> <label for="nao">Não</label>
+       </div>
+
+       <input type="submit" name="acao" value="Enviar">
+
+       <fieldset>
+      <label class="checkbox"><input type="checkbox" checked></label>
+      <input type="submit" name="Enviar formulário" class="enviar">
+     </fieldset>
+
+ <table>
+   <thead>
+    <tr>
+     <th>Dia</th>
+     <th>Horário</th>
+       </tr>
+ </thead>
+ <tbody>
+<tr>
+ <td>Segunda </td>
+ <td> 20h ~ 23h</td>
+</tr>
+ <tr>
+    <td>Quarta</td>
+ <td>20h ~ 22h</td>
+ </tr>
+ <tr>
+    <td>Sexta</td>
+ <td>21h ~ 23h</td>
+ </tr>
+</tbody>
+ </table>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
